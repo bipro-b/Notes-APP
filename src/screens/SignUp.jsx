@@ -29,6 +29,7 @@ export default function Signup() {
 
   const signup = async () => {
     setLoading(true);
+
     try {
       // 1. create user with email and password
       const result = await createUserWithEmailAndPassword(
